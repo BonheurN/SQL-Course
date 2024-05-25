@@ -1,0 +1,32 @@
+
+CREATE DATABASE NBSHOP;
+CREATE TABLE Goods(
+Goods_ID INT INDENTITY(1,1),
+Product_Names VARCHAR(50),
+Country VARCHAR(50),
+City VARCHAR(50),
+Company_Name VARCHAR(50),
+
+);
+INSERT INTO Goods(Product_Names, Country, City, Company_Name)
+values
+( 'AKABANGA', 'RWANDA', 'Musanze', 'Entreprise URWINUTSO'),
+('MILK MUKAMIRA', 'RWANDA', 'Nyabihu', 'MUKAMIRA LTD'),
+('YOGHURT', 'RWANDA', 'Kigali', 'INYANGE'),
+('Eggs', 'RWANDA', 'Kigali', 'BG FARM'),
+
+CREATE TABLE Employees(
+Employees_ID INT INDENTITY(1,1),
+First_Name VARCHAR(50),
+Second_Name VARCHAR(50),
+Contacts VARCHAR(50),
+Location VARCHAR(50)
+);
+
+INSERT INTO Employees(First_Name, Second_Name, Contacts, Location)
+Values
+('GAJU', 'Emelyne', '0334-4433', 'Wola'),
+('RUTAMU', 'Aimable', '3243-1234', 'Mokotow'),
+('MUNYANA', 'Annet', '2222-1111', 'Praga Porodunie'),
+('Kalisa', 'Evas', '0121-1238', 'Ratusz Arsenal'),
+('Marcus', 'reynolds', '4920-2324', 'Aleja Edukacja');
