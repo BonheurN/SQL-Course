@@ -30,3 +30,5 @@ Values
 ('MUNYANA', 'Annet', '2222-1111', 'Praga Porodunie'),
 ('Kalisa', 'Evas', '0121-1238', 'Ratusz Arsenal'),
 ('Marcus', 'reynolds', '4920-2324', 'Aleja Edukacja');
+
+CREATE TABLE 
