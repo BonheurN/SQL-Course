@@ -31,4 +31,15 @@ Values
 ('Kalisa', 'Evas', '0121-1238', 'Ratusz Arsenal'),
 ('Marcus', 'reynolds', '4920-2324', 'Aleja Edukacja');
 
-CREATE TABLE 
+CREATE TABLE Suppliers(
+Supplier_ID INT (1,1),
+First_Name VARCHAR(15),
+Second_Name VARCHAR(15),
+Product_name VARCHAR(15),
+Country VARCHAR(15),
+City VARCAHAR(15)
+);
+INSERT INTO Suppliers(Supplier_ID, First_Name, Second_name, Product_name, Country, City )
+VALUES(1, "Kaberuka","Olivier", "Ground nut", "Rwanda", "Bugesera" ),
+      (2, "Murad", "Bin", "Oil", "Alerzbeijan", "Baku" ),
+      (3, "Krishna", "Chopran", "Masara", "India", "Bangladeesh"),
